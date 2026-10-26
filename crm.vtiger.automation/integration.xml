@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <groups>
+  	<run>
+  		<include name="integration"/>
+  	</run>
+  </groups>
+    <classes>
+            <class name="Vtiger_CRM.Documents.System_testcases_Documents"/>
+            <class name="Vtiger_CRM.Email.Functional_testcases_Email"/>
+            <class name="Vtiger_CRM.Email.System_testcases_Email"/>
+            <class name="Vtiger_CRM.Login.Functional_testcases_Login"/>
+            <class name="Vtiger_CRM.Login.Integration_testcases_Login"/>
+            <class name="Vtiger_CRM.Opportunities.Functional_testcases_Oppor"/>
+            <class name="Vtiger_CRM.Opportunities.System_testcases_Oppor"/>
+            <class name="Vtiger_CRM.Product.Functional_testcases_Product"/>
+            <class name="Vtiger_CRM.Product.System_testcases_Product"/>
+    </classes>
+  </test> 
+</suite>
